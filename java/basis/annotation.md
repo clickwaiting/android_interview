@@ -76,7 +76,7 @@ public class Person {
 
 ##### 3.元Annotation
 
-JDK除了在java.lang提供了上述内建注解外，还在java.lang。annotation包下提供了6个Meta Annotation\(元Annotataion\)，其中有5个元Annotation都用于修饰其他的Annotation定义。其中@Repeatable专门用户定义Java 8 新增的可重复注解。
+JDK除了在java.lang提供了上述内建注解外，还在java.lang.annotation包下提供了6个Meta Annotation\(元Annotataion\)，其中有5个元Annotation都用于修饰其他的Annotation定义。其中@Repeatable专门用户定义Java 8 新增的可重复注解。
 
 我们先介绍其中4个常用的修饰其他Annotation的元Annotation。在此之前，我们先了解如何自定义Annotation。
 
